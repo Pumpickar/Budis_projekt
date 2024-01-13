@@ -2,7 +2,7 @@
   <v-app>
     <TheNavbar />
 
-    <v-container class="mt-3 mb-15">
+    <v-container class="mt-15 mb-15">
       <router-view></router-view>
     </v-container>
 

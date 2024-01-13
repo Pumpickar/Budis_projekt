@@ -1,17 +1,13 @@
 <template>
-    <v-toolbar app>
-      <span class="hidden-sm-and-up">
-
-      </span>
-      <v-spacer></v-spacer>
-      <v-toolbar-items class="hidden-xs-only">
-        <v-btn flat v-for="route in routes" :key="route.name" :to="route.path">
-          {{ route.name }}
-        </v-btn>
-      </v-toolbar-items>
-      
-    </v-toolbar>
-
+  <v-app-bar app>
+    <v-spacer></v-spacer>
+    <v-toolbar-items class="hidden-xs-only">
+      <v-btn flat v-for="route in routes" :key="route.name" :to="route.path">
+        {{ route.name }}
+      </v-btn>
+    </v-toolbar-items>
+    <v-spacer></v-spacer>
+  </v-app-bar>
 </template>
 
 <script>
@@ -31,4 +27,3 @@ export default {
   },
 };
 </script>
-
