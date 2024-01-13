@@ -3,7 +3,7 @@
     <v-card>
       <v-img :src="photo.src" alt="Photo"></v-img>
       <v-card-text>{{ photo.description }}</v-card-text>
-      <v-card-subtitle>${{ photo.price }}</v-card-subtitle>
+      <v-card-subtitle>{{ photo.price }} EUR</v-card-subtitle>
       <v-btn @click="addToCart">pridať do košíka</v-btn>
     </v-card>
   </v-col>

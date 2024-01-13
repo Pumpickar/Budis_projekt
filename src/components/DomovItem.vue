@@ -11,7 +11,7 @@
         </router-link>
         <router-link to="/sluzby" class="link">
           <img src="../assets/img/sluzby.png" alt="Služby">
-          <p>prejsť mna služby</p>
+          <p>prejsť na služby</p>
         </router-link>
       </div>
     </div>
